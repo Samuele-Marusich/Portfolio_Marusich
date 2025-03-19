@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('path/to/your/background-image.jpg');
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(93, 91, 91);
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+}
+ul {
+    color: white;
+}
+pre {
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px white;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 1, 2, 0.8);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+}
