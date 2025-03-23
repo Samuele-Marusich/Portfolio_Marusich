@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+	Marusich by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Marusich by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Marusich</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">codice fisclale</a></li>
+											<li><a href="elements.html">cyberbullissmo</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Generazione del Codice Fiscale in C</h2>
+
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+								
+							<p>Nel mio progetto ho sviluppato un programma in linguaggio C per generare il codice fiscale italiano in modo automatico. Il programma è strutturato in due file principali:</p>
+            <ul>
+                <li><strong>Fiscale.h</strong>: contiene le dichiarazioni di variabili e funzioni, oltre all'implementazione della logica di elaborazione del codice fiscale.</li>
+                <li><strong>Marusich_Codice_Fiscale.c</strong>: è il file principale che gestisce l'input dell'utente e richiama le funzioni definite in Fiscale.h.</li>
+            </ul>
+			<div class="image-gallery">
+									
+				<img src="images/Fiscale2.png" alt="Struttura del codice fiscale generato">
+			</div>
+            <h3>Come funziona il programma?</h3>
+            <p>Il programma guida l'utente nell'inserimento dei dati personali, tra cui:</p>
+            <ul>
+                <li>Cognome</li>
+                <li>Nome</li>
+                <li>Anno di nascita</li>
+                <li>Mese di nascita</li>
+                <li>Giorno di nascita</li>
+                <li>Sesso</li>
+                <li>Luogo di nascita</li>
+            </ul>
+            <p>Successivamente, utilizza funzioni specifiche per elaborare i dati e generare il codice fiscale:</p>
+            <ul>
+                <li><strong>surname(cognome)</strong> e <strong>name(nome)</strong>: estraggono consonanti e vocali per i primi caratteri del codice.</li>
+                <li><strong>year(anno)</strong>, <strong>month(mese)</strong> e <strong>day(giorno, sesso)</strong>: codificano la data di nascita.</li>
+                <li><strong>place(luogo)</strong>: legge il codice del comune da un file di testo.</li>
+                <li><strong>controllo()</strong>: calcola il carattere di controllo.</li>
+                <li><strong>stampa()</strong>: visualizza il codice fiscale generato.</li>
+            </ul>
+        
+            <div class="image-gallery">
+                <img src="images/Fiscale1.png" alt="Struttura del codice fiscale generato">
+                
+            </div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Portfolio Digitale</li><li> <a href="https://agnelli.it/">istituto Agnelli</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
